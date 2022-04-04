@@ -28,8 +28,182 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;
 }
 
+.logo {
+	width: 170px;
+}
+
+h1 {
+	height: 52px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	line-height: 1.5;
+	color: white;
+	margin: 60px;
+}
+
+h2 {
+	height: 36px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+h3 {
+	height: 18px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.hlavička {
+	padding: 30px 0 30px 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+}
+
+.menu li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.menu a {
+	color: #242424;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+.objednávka:hover {
+	background-color: #d2567d;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px 15px;
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 30px;
+	margin: 0;
+}
+
+.úvodnítext {
+	height: 24px;
+	color: white;
+	font-style: italic;
+	margin: 60px 60px 60px 160px;
+}
+
+.nadpis-sladké {
+	margin: 60px 60px 60px 160px;
+}
+
+.dvasloupce {
+	display: flex;
+	max-width: 1100px;	
+	padding: 80px 0 80px 0;
+	margin: auto;
+}
+
+.nadpissekce {
+	color: #3e606b;
+	font-family:'Playfair Display', serif;
+	height: 36px;
+	margin: 0;
+}
+
+.levýsloupec {
+	padding-right: 30px;
+}
+
+.tlačítko {
+	background-color: #f195b2;
+	color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 40px;
+}
+
+.tlačítko:hover {
+	background-color: #d2567d;
+}
+	
+.odstavec {
+	padding-bottom: 30px;
+}
+
+.šedá {
+	background-color: #f0f0f0;
+	margin: 0px;
+	padding: 80px 0 80px 0;
+}
+
+.obsahsekce {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.nabídka {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	gap: 30px;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.obsahdvasloupce {
+		display: flex;
+		max-width: 1100px;	
+		padding: 80px 0 80px 0;
+		margin: auto;
+}
+
+.foto {
+	border-radius: 5px;
+}
+
+.dort {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+.sloupecp {
+	padding: 30px;
+}
+
+.produkt {
+	background-color: white;
+	border-radius: 5px;
+    flex: 0 0 calc((100% - 90px)/4);
+	box-shadow: 1px 2px 4px#bbbbbb;
+    row-gap: 30px;
+}
+
+.výrobek {
+	padding: 20px;
+	text-align: center;
+}
+
+.patička {
+	color: white;
+	background-color: #303339;
+	padding: 30px 0 30px 0;
+	text-align: center;
+	margin: auto;
+}
