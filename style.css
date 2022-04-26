@@ -28,11 +28,8 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-font-family: 'Lora', serif;
-font-family: 'Playfair Display', serif;
-
 body {
-	margin: 0;
+	margin: auto;
 	font-family: 'Lora', serif;
 	font-size: 18px;
 	line-height: 1.5;
@@ -49,7 +46,7 @@ h1 {
 	font-weight: bold;
 	line-height: 1.5;
 	color: white;
-	margin: 60px;
+	
 }
 
 h2 {
@@ -66,7 +63,7 @@ h3 {
 	line-height: 1.5;
 }
 
-.hlavička {
+.hlavicka {
 	padding: 30px 0 30px 0;
 	margin: auto;
 	display: flex;
@@ -85,7 +82,7 @@ h3 {
 	padding: 10px 15px;
 }
 
-.objednávka:hover {
+.objednavka:hover {
 	background-color: #d2567d;
 	color: white;
 	text-align: center;
@@ -99,19 +96,34 @@ h3 {
 	background-position: center;
 	background-size: cover;
 	padding: 100px 30px;
-	margin: 0;
 }
 
-.úvodnítext {
-	height: 24px;
-	color: white;
-	font-style: italic;
-	margin: 60px 60px 60px 160px;
+.hero-text p {
+	font-size: 24px;
+    font-style: italic;
+    padding-top: 30px;
+	margin-top: 70px;
 }
 
-.nadpis-sladké {
-	margin: 60px 60px 60px 160px;
+.hero-text p,
+    h1 {
+        color: white;
+        margin: 0;
+        padding-right: 40%;
+    }
+
+.hero-text {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+.nadpis-sladke {
+	margin-bottom: 90px;
+	font-size: 52px;
+}
+
+
 
 .dvasloupce {
 	display: flex;
@@ -124,14 +136,14 @@ h3 {
 	color: #3e606b;
 	font-family:'Playfair Display', serif;
 	height: 36px;
-	margin: 0;
+	margin: auto;
 }
 
-.levýsloupec {
+.levysloupec {
 	padding-right: 30px;
 }
 
-.tlačítko {
+.tlacitko {
 	background-color: #f195b2;
 	color: white;
 	border-radius: 30px;
@@ -140,7 +152,7 @@ h3 {
 	padding: 15px 40px;
 }
 
-.tlačítko:hover {
+.tlacitko:hover {
 	background-color: #d2567d;
 }
 	
@@ -148,9 +160,9 @@ h3 {
 	padding-bottom: 30px;
 }
 
-.šedá {
+.seda {
 	background-color: #f0f0f0;
-	margin: 0px;
+	margin: auto;
 	padding: 80px 0 80px 0;
 }
 
@@ -159,7 +171,7 @@ h3 {
 	margin: auto;
 }
 
-.nabídka {
+.nabidka {
 	display: flex;
 	flex-direction: row;
 	align-items: stretch;
@@ -190,16 +202,14 @@ h3 {
 .produkt {
 	background-color: white;
 	border-radius: 5px;
-	
-    
 }
 
-.výrobek {
+.vyrobek {
 	padding: 20px;
 	text-align: center;
 }
 
-.patička {
+.paticka {
 	color: white;
 	background-color: #303339;
 	padding: 30px 0 30px 0;
