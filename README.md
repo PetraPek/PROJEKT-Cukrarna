@@ -6,19 +6,21 @@ Cílem úkolu bylo nakódovat design podle grafického návrhu. Jedná se o úvo
 
 Cílem projektu bylo procvičit si použití různých technik dle zadání:
 
-- **Flexbox**
+Flexbox
+
   - tento úkol je plný flexboxů
   - pomocí flexboxu udělej horní proužek s logem a menu
   - všechny sekce, kde je obrázek a vedle něj text, udělej také flexboxem. Textovou polovinu a obrázek můžeš pomocí flexboxu navzájem k sobě vertikálně vycentrovat.
   - nabídka dortíků je také flexbox, ale to už ti asi bylo jasné dávno
   - na horní banner s cupcaky flexbox nepotřebuješ - to je jenom sekce s obrázkem na pozadí, kde obsah má velký pravý padding (nebo margin)
   - 
-- **Margin a padding**
+Margin a padding
+
   - v tomto úkolu nepotřebuješ žádné pozicování - vše vyřešíš jen pomocí flexboxu a marginu a paddingu
   - nezapomeň, že například nadpisy a odstavce mají ve výchozím stylu prohlížeče nastavený margin nahoru a dolů. Někdy je potřeba jeden z těchto marginů vynulovat (např. nad nadpisem), aby se ti nesčítal s paddingem prvku, ve kterém nadpis leží, a nad nadpisem tak nebyla větší mezera než chceš.
   - pamatuj na základní poučku:
 
-## Grafické zadání
+Grafické zadání
 
 Všechny potřebné rozměry, použitá písma, barvy, apod. najdeš na obrázku *zadani-ukolu.png*. Spoustu z těchto informací máš připravenou také v komentáři v souboru *style.css*.
 
@@ -26,7 +28,7 @@ Všechny potřebné rozměry, použitá písma, barvy, apod. najdeš na obrázku
 
 Na výběr jsme měli ze dvou obtížností:
 
-## Obtížnosti úkolu
+Obtížnosti úkolu
 
 Zadání tohoto projektu je vytvořeno ve dvou úrovních obtížnosti. Tento repozitář obsahuje výchozí **standardní úroveň obtížnosti**. Pokud máš méně času nebo s úkolem hodně bojuješ, můžeš zkusit lehčí variantu úkolu.
 
