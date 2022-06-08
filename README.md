@@ -17,7 +17,7 @@ Flexbox
 Margin a padding
 
   - v tomto úkolu nepotřebuješ žádné pozicování - vše vyřešíš jen pomocí flexboxu a marginu a paddingu
-  - nezapomeň, že například nadpisy a odstavce mají ve výchozím stylu prohlížeče nastavený margin nahoru a dolů. Někdy je potřeba jeden z těchto marginů vynulovat (např. nad nadpisem), aby se ti nesčítal s paddingem prvku, ve kterém nadpis leží, a nad nadpisem tak nebyla větší mezera než chceš.
+  - nezapomeň, že například nadpisy a odstavce mají ve výchozím stylu prohlížeče nastavený margin nahoru a dolů. Někdy je potřeba jeden z těchto marginů vynulovat         (např. nad nadpisem), aby se ti nesčítal s paddingem prvku, ve kterém nadpis leží, a nad nadpisem tak nebyla větší mezera než chceš.
   - pamatuj na základní poučku:
 
 Grafické zadání
@@ -30,20 +30,22 @@ Na výběr jsme měli ze dvou obtížností:
 
 Obtížnosti úkolu
 
-Zadání tohoto projektu je vytvořeno ve dvou úrovních obtížnosti. Tento repozitář obsahuje výchozí **standardní úroveň obtížnosti**. Pokud máš méně času nebo s úkolem hodně bojuješ, můžeš zkusit lehčí variantu úkolu.
+Zadání tohoto projektu je vytvořeno ve dvou úrovních obtížnosti. Tento repozitář obsahuje výchozí standardní úroveň obtížnosti. Pokud máš méně času nebo s úkolem hodně bojuješ, můžeš zkusit lehčí variantu úkolu.
 
-### Standardní obtížnost
+Standardní obtížnost
+
 - obsažená v tomto repozitáři
 - v HTML najdeš pouze obsahové elementy (nadpisy, odstavce, obrázky)
 - sama si do HTML musíš dopsat další strukturu, která je nutná, abys mohla HTML nastylovat podle grafického zadání
 - musíš vymyslet, do jakých prvků obsah zabalíš a jaké třídy jim přidáš
 - nezapomeň si připojit správná písma z Google Fonts
 
-### Lehčí obtížnost
+Lehčí obtížnost
+
 - dostupná v [druhém repozitáři](https://github.com/Czechitas-Koderka-podklady/PROJEKT-Cukrarna-lehci)
 - grafické zadání je stejné, ale v HTML je kompletně připravený obsah včetně struktury, obalových prvků a přidaných CSS tříd
 - v HTML už máš připojená písma z Google Fonts
 - v této obtížnosti nemusíš HTML vůbec upravovat - stačí si ho prostudovat, abys věděla jaké prvky/třídy máš stylovat a "jenom" k nim napsat CSS
 
-Protože jsem si chtěla vše pořádně procvičit zvolila jsem standartní obtížnost, kdy jsem do HTML dopisovala strukturu potřebou ke stylování.
+Protože jsem si chtěla vše pořádně procvičit zvolila jsem standartní obtížnost, kdy jsem do HTML dopisovala strukturu potřebnou ke stylování.
 
